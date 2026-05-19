@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.js", "use": "@vercel/static" },
+    { "src": "*.css", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/login.html" },
+    { "src": "/dashboard", "dest": "/dashboard.html" },
+    { "src": "/pipeline", "dest": "/pipeline.html" },
+    { "src": "/clientes", "dest": "/clientes.html" },
+    { "src": "/projetos", "dest": "/projetos.html" },
+    { "src": "/prospeccao", "dest": "/prospeccao.html" }
+  ]
+}
